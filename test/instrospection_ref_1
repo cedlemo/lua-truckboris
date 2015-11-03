@@ -1,0 +1,67 @@
+Classes Names
+	GC_VALUE
+	ConstIterator
+	Iterator
+	VectorEnum
+	VectorEnumConstant
+	VectorFunction
+	VectorParameter
+	VectorStructure
+	VectorField
+	VectorTypedef
+	VectorString
+	Type
+	Typedef
+	Parameter
+	Field
+	TagDeclaration
+	Structure
+	EnumConstant
+	Enum
+	Function
+	HeaderParser
+>>Parser::Structure
+	getTagType
+	getFields
+>>Parser::Enum
+	getTagType
+	getConstants
+>>Parser::Function
+	name
+	return_type
+	getParameters
+	raw
+>>Parser::TagDeclaration
+	name
+	hasNameForLinkage
+	hasLinkage
+	typedefName
+	raw
+>>Parser::Typedef
+	name
+	type
+	raw
+>>Parser::EnumConstant
+	name
+	getValue
+>>Parser::Parameter
+	Equals
+	name
+	type
+>>Parser::Field
+	name
+	type
+>>Parser::Type
+	name
+	is_canonical
+	canonical_type
+	isEmpty
+>>Parser::HeaderParser
+	parse
+	lang_opts
+	source_manager
+	getFunctions
+	getStructures
+	getUnions
+	getEnums
+	typedefs

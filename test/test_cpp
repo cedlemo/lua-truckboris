@@ -1,0 +1,10 @@
+//#include <unistd.h> 
+#include "test.h"
+void fonction_vide()
+{
+};
+int main(int argc, char **argv)
+{
+  int a = 3;
+  return 0;
+}

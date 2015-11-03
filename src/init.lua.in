@@ -1,0 +1,3 @@
+local luatruckboris = require("truckboris.wrap")
+
+return luatruckboris 

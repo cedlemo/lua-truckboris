@@ -1,0 +1,2 @@
+*  generate the source file with autotools (swig -c++ -lua -o wrap.cxx luatruckboris.i)
+*  add the ruby example in lua

@@ -1,0 +1,104 @@
+Classes Names
+	GC_VALUE
+	ConstIterator
+	Iterator
+	VectorEnum
+	VectorEnumConstant
+	VectorFunction
+	VectorParameter
+	VectorStructure
+	VectorField
+	VectorTypedef
+	VectorString
+	Type
+	Typedef
+	Parameter
+	Field
+	TagDeclaration
+	Structure
+	EnumConstant
+	Enum
+	Function
+	HeaderParser
+>>Parser::Structure
+	Equals
+	getTagType
+	getFieldsNumber
+	getFields
+	getField
+>>Parser::Enum
+	Equals
+	getTagType
+	getConstantsNumber
+	getConstants
+	getConstant
+>>Parser::Function
+	Equals
+	name
+	return_type
+	setPtr
+	getPtr
+	getParamsNumber
+	getParameters
+	getParameter
+	raw
+>>Parser::TagDeclaration
+	setPtr
+	getPtr
+	name
+	hasNameForLinkage
+	hasLinkage
+	typedefName
+	raw
+	Equals
+>>Parser::Typedef
+	Equals
+	setPtr
+	getPtr
+	name
+	type
+	raw
+>>Parser::EnumConstant
+	Equals
+	setPtr
+	getPtr
+	name
+	getValue
+>>Parser::Parameter
+	Equals
+	setPtr
+	getPtr
+	name
+	type
+>>Parser::Field
+	Equals
+	setPtr
+	getPtr
+	name
+	type
+>>Parser::Type
+	Equals
+	setType
+	name
+	is_canonical
+	canonical_type
+	isEmpty
+>>Parser::HeaderParser
+	parse
+	lang_opts
+	source_manager
+	printFunctionsNames
+	printStructuresNames
+	printUnionsNames
+	printEnumsNames
+	printTypedefsNames
+	getFunctionsNumber
+	getStructuresNumber
+	getUnionsNumber
+	getEnumsNumber
+	typedefsNumber
+	getFunctions
+	getStructures
+	getUnions
+	getEnums
+	typedefs
